@@ -17,8 +17,8 @@ def main():
 
     # file per settare colori di sfondo e testo
     # /
-    with open('.streamlit/config.toml', 'r') as f:
-        config = toml.load(f)
+    #with open('.streamlit/config.toml', 'r') as f:
+    #    config = toml.load(f)
 
     st.header("Weather")
 
