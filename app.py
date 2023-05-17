@@ -8,6 +8,7 @@ from meteostat import Point, Daily
 import pandas as pd
 import plotly.graph_objects as go
 from geopy.geocoders import Nominatim
+import meteostat
 
 
 # implemento la funzione main
