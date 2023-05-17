@@ -65,7 +65,7 @@ def main():
     # adjust layout
     fig.update_layout(title = "Titolo",
                     xaxis_title = "Date",
-                    yaxis_title = "Sales",
+                    yaxis_title = "Temperatures",
                     width = 1700,
                     height = 700,
                     )
