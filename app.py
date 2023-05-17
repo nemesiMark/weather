@@ -14,6 +14,7 @@ from geopy.geocoders import Nominatim
 def main():
 
     # file per settare colori di sfondo e testo
+    # /
     with open('.streamlit/config.toml', 'r') as f:
         config = toml.load(f)
 
@@ -23,9 +24,6 @@ def main():
 
     geolocator = Nominatim(user_agent="Your_name")
     location = geolocator.geocode(citta)
-
-    # lat = st.number_input("Inserisci la latitudine", value=44.498955, format="%6f")
-    # long = st.number_input("Inserisci la longitudine", value=11.327591, format="%6f")
 
     data_inizio = st.date_input("Inserisci la data di inizio", date(2019,7,6))
 
